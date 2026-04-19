@@ -5,5 +5,7 @@ xgboost
 lightgbm
 catboost
 joblib
-
+seaborn
+matplotlib
+ipykernel
 -e .
