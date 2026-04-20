@@ -8,4 +8,5 @@ joblib
 seaborn
 matplotlib
 ipykernel
+dill
 -e .
