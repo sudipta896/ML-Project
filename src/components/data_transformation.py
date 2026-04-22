@@ -126,12 +126,12 @@ class DataTransformation:
 # ==============================
 # Run block (IMPORTANT)
 # ==============================
-if __name__ == "__main__":
-    obj = DataTransformation()
+# if __name__ == "__main__":
+#     obj = DataTransformation()
 
-    train_data, test_data, preprocessor_path = obj.initiate_data_transformation(
-        train_path="artifacts/train.csv",
-        test_path="artifacts/test.csv",
-    )
+#     train_data, test_data, preprocessor_path = obj.initiate_data_transformation(
+#         train_path="artifacts/train.csv",
+#         test_path="artifacts/test.csv",
+#     )
 
-    print("Data Transformation completed")
+#     print("Data Transformation completed")

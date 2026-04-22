@@ -151,17 +151,17 @@ class ModelTrainer:
 # ==============================
 # Run block
 # ==============================
-if __name__ == "__main__":
-    from src.components.data_transformation import DataTransformation
+# if __name__ == "__main__":
+#     from src.components.data_transformation import DataTransformation
 
-    data_transformation = DataTransformation()
+#     data_transformation = DataTransformation()
 
-    train_arr, test_arr, _ = data_transformation.initiate_data_transformation(
-        train_path="artifacts/train.csv",
-        test_path="artifacts/test.csv",
-    )
+#     train_arr, test_arr, _ = data_transformation.initiate_data_transformation(
+#         train_path="artifacts/train.csv",
+#         test_path="artifacts/test.csv",
+#     )
 
-    trainer = ModelTrainer()
-    score = trainer.initiate_model_trainer(train_arr, test_arr)
+#     trainer = ModelTrainer()
+#     score = trainer.initiate_model_trainer(train_arr, test_arr)
 
-    print(f"Model Training Completed. R2 Score: {score}")
+#     print(f"Model Training Completed. R2 Score: {score}")
